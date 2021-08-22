@@ -4,6 +4,7 @@ pipeline {
         //be sure to replace "willbla" with your own Docker Hub username
         DOCKER_IMAGE_NAME = "scryella/train-schedule"
         CANARY_REPLICAS = 0
+
     }
     stages {
         stage('Build') {
